@@ -2,12 +2,9 @@
 @section('title')
 Login
 @endsection
-
-
-
 @section('content')
 <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
-    <h2 class="card-title font-weight-bold mb-1">Buku Alumni <!-- 👋 --></h2>
+    <h2 class="card-title font-weight-bold mb-1">Buku Alumni</h2>
     <p class="card-text mb-2"></p>
     
     <form class="auth-login-form mt-2" method="POST" action="{{ route('login') }}">
